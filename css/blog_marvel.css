@@ -1,0 +1,16 @@
+:root {
+  --principal: #e23636;
+  --black: #000000;
+  --secondary: #518cca;
+  --third: #f78f3f;
+  --complemetary: #504a4a;
+}
+
+header {
+  background-color: black;
+}
+
+nav{
+    background-color: var(--complemetary);
+    height: 50px;
+}
