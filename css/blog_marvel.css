@@ -14,3 +14,7 @@ nav{
     background-color: var(--complemetary);
     height: 50px;
 }
+
+.card{
+  margin-right: 10px;
+}
