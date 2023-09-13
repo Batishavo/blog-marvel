@@ -18,15 +18,15 @@ const getComics = done => {
 
 /*usar la api */
 getComics(data => {
-
   data.data.results.forEach(comic => {
-    
     //console.log(comic.id);
 
     const article = document.createRange().createContextualFragment(
       /*html*/
       `     
-            <a href="/html/comic-info.html?id=${comic.id}" class="card col-xl-3 col-lg-5 col-md-7 col-sm-9 col-12 mb-5 m" >    
+            <a href="/html/comic-info.html?id=${
+              comic.id
+            }" class="card col-xl-3 col-lg-5 col-md-7 col-sm-9 col-12 mb-5 m" >    
                 <div class="" >
                     <div class="card-header">
                         <h3 class="title is-4">${comic.title}</h3>
