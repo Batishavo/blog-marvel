@@ -17,44 +17,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!--My styles-->
-    <link rel="stylesheet" href="../css/comic-info.css">
     <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/comic-info.css">
 </head>
 
 <body>
-
-    <header>
-        <div class="container">
-            <div class="row">
+    <div class="cointainer">
+        <header>
+            <div class="row justify-content-center">
                 <div class="col">
-                    <img class="img-fluid"
+                    <img class="img-fluid rounded mx-auto d-block"
                         src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Marvel-Comics-Logo.svg/1200px-Marvel-Comics-Logo.svg.png"
                         alt="Marvel-Comics-Logo">
                 </div>
             </div>
-        </div>
-    </header>
-    <nav>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="col marvel-nav">
-                        <ul>
-                            <li>Prev</li>
-                            <li>Marvel</li>
-                            <li>Next</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col">
+        </header>
+        <nav>
+        </nav>
+        <main>
+            <div class="row card-comic mt-1">
+                <div class="col-4 card-image">
                     <h1>Deadpool: Badder Blood (2023) #1</h1>
-                    <img src="https://cdn.marvel.com/u/prod/marvel/i/mg/7/a0/646e1f6994de8/clean.jpg" alt="">
+                    <img class="comic-image"
+                        src="https://cdn.marvel.com/u/prod/marvel/i/mg/7/a0/646e1f6994de8/clean.jpg" alt="">
+                </div>
+                <div class="col-6">
                     <h2>Published:</h2>
                     <p>June 07, 2023</p>
                     <h2>Writer</h2>
@@ -74,15 +61,14 @@
                     </p>
                 </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <a href="#">@Batishavo</a>
-    </footer>
+        </main>
+        <footer>
+            <a href="#">@Batishavo</a>
+        </footer>
+    </div>
     <!-- <script src="../javascript/comic-api-info.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-        </script>
+    </script>
 </body>
-
 </html>
