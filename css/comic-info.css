@@ -7,16 +7,47 @@ header img{
     text-align: center;
 }
 
-/* My class*/
-.comic-image{
-    height: 500px;
+
+body{
+    height: 90%;
+    width: 90%;
+    background-color: #5e5c5c;
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 
-.card-comic{
+/*bootrap*/
+.cointainer{
+    margin-top: 10px;
+    margin-left:5%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* My class*/
+.comic-image{
+    max-height: 500px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+ .card-comic{
     background-color: black;
     color: white;
-}
+    margin-left: 0%;
+    margin-right: 0%;
+  
+} 
 
 .card-image{
     margin-left: 30px;
+} 
+
+.variant-covers{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
 }

@@ -1,9 +1,18 @@
 /*Paleta de colores*/
 :root {
-    --principal: #e23636;
-    --black: #000000;
-    --secondary: #518cca;
-    --third: #f78f3f;
-    --complemetary: #2b2828;
-  }
-  
+  --principal: #e23636;
+  --black: #000000;
+  --secondary: #518cca;
+  --third: #f78f3f;
+  --complemetary: #2b2828;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: var(--complemetary);
+  text-align: center;
+}
